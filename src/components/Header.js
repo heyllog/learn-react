@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button, Container, Form, Nav, Navbar, FormControl} from "react-bootstrap";
-import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 
 import logo from '../img/logo192.png';
 import Home from "../pages/Home";
@@ -34,8 +34,8 @@ class Header extends Component {
                      <Form inline>
                         <FormControl
                            type="text"
-                           placeholder="search"
-                           className="mr-sm-2"
+                           placeholder="Search"
+                           className="mr-sm-2 search-form"
                         />
                         <Button variant="outline-info">Search</Button>
                      </Form>
