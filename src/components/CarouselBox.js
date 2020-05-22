@@ -7,18 +7,13 @@ import Forest2 from '../img/forest2.jpg';
 
 class CarouselBox extends Component {
    render() {
-      const imgStyle = {
-         height: 600,
-         objectFit: 'cover',
-      };
       return (
          <Carousel>
             <Carousel.Item>
                <img
-                  className="d-block w-100"
+                  className="d-block w-100 carousel-img"
                   src={Forest1}
                   alt="forest1"
-                  style={imgStyle}
                />
                <CarouselCaption>
                   <h3>First Forest</h3>
@@ -27,10 +22,9 @@ class CarouselBox extends Component {
             </Carousel.Item>
             <Carousel.Item>
                <img
-                  className="d-block w-100"
+                  className="d-block w-100 carousel-img"
                   src={Forest2}
                   alt="forest2"
-                  style={imgStyle}
                />
                <CarouselCaption>
                   <h3>Second Forest</h3>
@@ -39,10 +33,9 @@ class CarouselBox extends Component {
             </Carousel.Item>
             <Carousel.Item>
                <img
-                  className="d-block w-100"
+                  className="d-block w-100 carousel-img"
                   src={Forest2}
                   alt="forest2"
-                  style={imgStyle}
                />
                <CarouselCaption>
                   <h3>Second Forest</h3>
@@ -51,10 +44,9 @@ class CarouselBox extends Component {
             </Carousel.Item>
             <Carousel.Item>
                <img
-                  className="d-block w-100"
+                  className="d-block w-100 carousel-img"
                   src={Forest1}
                   alt="forest1"
-                  style={imgStyle}
                />
                <CarouselCaption>
                   <h3>First Forest</h3>
