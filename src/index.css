@@ -32,3 +32,11 @@ p {
     height: 600px;
     object-fit: cover;
 }
+
+.blog-card {
+    background: #F8F9FA;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 15px;
+    align-items: center;
+}
